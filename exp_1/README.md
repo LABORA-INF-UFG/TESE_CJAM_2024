@@ -19,4 +19,9 @@ The development environment setup is exec by Ansible. Before starting it is nece
 sudo apt update && apt -y install python && sudo apt -y install git && sudo apt -y install ansible && sudo apt -y install net-tools && sudo apt -y install traceroute
 ```
 
+Clone the project with the following command:
+```
+apt update && git clone https://github.com/LABORA-INF-UFG/TESE_CJAM_2024.git 
+```
+
 
