@@ -1,0 +1,9 @@
+
+[fee5gc]
+68.183.134.238 internet_network_interface=eth0  nwdaf_install=false
+
+[n3iwf]
+104.248.127.241 free5gc_ip_address=68.183.134.238
+
+[labora-UE-non3GPP]
+104.248.121.115 n3iwf_ike_ip_address=104.248.127.241 free5gc_ip_address=68.183.134.238 msin=7488
