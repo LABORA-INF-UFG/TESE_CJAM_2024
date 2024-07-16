@@ -5,4 +5,18 @@ In this experiment, we will address the deployment process of the UE-non-3GPP, N
     <img src="../images/topology_install.png"/> 
 </p>
 
+## Steps for installing and configuring the Prototype
+
+The content described in this repository was tested in [Digital Occean](https://www.digitalocean.com/) cloud environment. 1º VM where free5GC will run (except N3IWF) and 2º VM where the N3IWF, each of them with the following configurations:
+* SO: Ubuntu 20.04 (LTS) x64
+* Uname -r: 5.4.0-122-generic
+* Memory: 4 GB
+* Disk: 80 GB
+
+#### Before starting
+The development environment setup is exec by Ansible. Before starting it is necessary to access via SSH each one of the VM's and execute the following command to install some basic dependencies.
+```
+sudo apt update && apt -y install python && sudo apt -y install git && sudo apt -y install ansible && sudo apt -y install net-tools && sudo apt -y install traceroute
+```
+
 
