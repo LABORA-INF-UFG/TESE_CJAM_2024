@@ -11,7 +11,7 @@ Next, we will present present a series of experiments focused on the integration
 
 ```
 @misc{macedocja2024superconvergence,
-    title={Pathways to superconvergence - 5G networks},
+    title={Convergence in Telecommunications Networks: A Superconvergent Architecture Proposal for 5G and non-3GPP Integration},
     author={Ciro J. A. Macedo},
     year={2024},
     eprint={TODO},
